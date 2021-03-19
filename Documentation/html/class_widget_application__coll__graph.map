@@ -1,0 +1,10 @@
+<map id="WidgetApplication" name="WidgetApplication">
+<area shape="rect" id="node1" title=" " alt="" coords="255,375,396,401"/>
+<area shape="rect" id="node2" href="$class_keyboard_task.html" title=" " alt="" coords="5,285,117,312"/>
+<area shape="rect" id="node3" href="$class_cursor_task.html" title=" " alt="" coords="141,285,235,312"/>
+<area shape="rect" id="node4" href="$struct_desktop_features.html" title=" " alt="" coords="259,285,391,312"/>
+<area shape="rect" id="node5" href="$class_color_engine.html" title=" " alt="" coords="415,285,515,312"/>
+<area shape="rect" id="node6" href="$structcolor_r_g_b_a.html" title=" " alt="" coords="396,5,487,32"/>
+<area shape="rect" id="node7" href="$class_font_engine.html" title=" " alt="" coords="586,285,681,312"/>
+<area shape="rect" id="node8" href="$struct_font_data.html" title=" " alt="" coords="617,5,698,32"/>
+</map>

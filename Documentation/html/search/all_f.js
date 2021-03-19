@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['r_299',['R',['../structcolor_r_g_b_a.html#aaa66c5628906c20c12a1dfcf0299a78e',1,'colorRGBA']]],
+  ['r_5fbackground_300',['r_background',['../struct_desktop_features.html#a9d4ca896b021d0ca3b43de476b701f09',1,'DesktopFeatures']]],
+  ['radiocontrolwidget_301',['RadioControlWidget',['../class_radio_control_widget.html',1,'RadioControlWidget'],['../class_radio_control_widget.html#a4bf976d8eabca4a20d44fc31013b2dfb',1,'RadioControlWidget::RadioControlWidget()'],['../class_radio_control_widget.html#a5cfaa8015c8756731700339ea7d46b32',1,'RadioControlWidget::RadioControlWidget(char *l, int x, int y, int w, int h, Widget *p)']]],
+  ['radiocontrolwidget_2ecpp_302',['RadioControlWidget.cpp',['../_radio_control_widget_8cpp.html',1,'']]],
+  ['radiocontrolwidget_2eh_303',['RadioControlWidget.h',['../_radio_control_widget_8h.html',1,'']]],
+  ['rainbow_304',['Rainbow',['../_progress_bar_widget_8h.html#ab8490151bd87b424ef2ce9d956846ca6a356ffd33d1f64e3a36395222767824e5',1,'ProgressBarWidget.h']]],
+  ['rainbowbrick_305',['RainbowBrick',['../_progress_bar_widget_8h.html#ab8490151bd87b424ef2ce9d956846ca6a692462d679c0b622e7641bf491974d46',1,'ProgressBarWidget.h']]],
+  ['releasefunction_306',['releasefunction',['../class_widget.html#a1ac1a14edb30a5f0824bf9c09b12fa07',1,'Widget']]],
+  ['removechild_307',['removechild',['../class_widget_application.html#a39938a13ac870e52dc7e49d8df4a255f',1,'WidgetApplication']]],
+  ['removedesktop_308',['removedesktop',['../class_widget_application.html#aa850f19174c7f9ef48bc19a3a8094097',1,'WidgetApplication']]],
+  ['render_309',['render',['../class_button_widget.html#a4fc35c819f011572535d480d3a305166',1,'ButtonWidget::render()'],['../class_check_box_widget.html#a36f1a6ca3aeaa0a1ed2770001f4e4321',1,'CheckBoxWidget::render()'],['../class_commuter_widget.html#a1c95afdecb30b4363497f667877c77f6',1,'CommuterWidget::render()'],['../class_container_h_widget.html#a646f58be35719f4b1687c00c7cb7f3fa',1,'ContainerHWidget::render()'],['../class_container_v_widget.html#aa7f0ebe019f8208ca4ad48dcbe84e0d0',1,'ContainerVWidget::render()'],['../class_cursor_task.html#a39986781051316318643af87138ea231',1,'CursorTask::render()'],['../class_desktop_widget.html#ada4ceaabce3c2b5b6403ee9938495da0',1,'DesktopWidget::render()'],['../class_frame_widget.html#ab1495bd9abb594eda24766998f51e637',1,'FrameWidget::render()'],['../class_input_widget.html#ab153543abad088cf14a4e67a457b63eb',1,'InputWidget::render()'],['../class_label_widget.html#a33af3b8d24f6b20bc5629436c4a4de32',1,'LabelWidget::render()'],['../class_mini_button_widget.html#ad9f74a5c761a9b318e0f91befa50e71a',1,'MiniButtonWidget::render()'],['../class_progress_bar_widget.html#a16e3a4e2ae396bd1b089c78ab6efcc16',1,'ProgressBarWidget::render()'],['../class_radio_control_widget.html#aed403ef9a2f79947fd6afc6dce389bd0',1,'RadioControlWidget::render()'],['../class_slider_widget.html#a0b640497b9409504c76608e87a272ebf',1,'SliderWidget::render()'],['../class_widget.html#a3d195e82e2715a98fa462ab39fe6691c',1,'Widget::render()'],['../class_widget_application.html#a6ae43bd0245b5a7202edf613114e5a00',1,'WidgetApplication::render()'],['../class_window_widget.html#a4f3d71dd7966ebf1158fb098641ea628',1,'WindowWidget::render()']]],
+  ['rgb_5fbackground_310',['rgb_background',['../struct_desktop_features.html#ad49a58b167aad580ea98d9797560a767',1,'DesktopFeatures']]],
+  ['right_311',['right',['../_label_widget_8h.html#a6c52c4bac77f6744fdc338766e9e8a6faf763d610923b0c4614e8ecd65212666a',1,'LabelWidget.h']]],
+  ['right_5farrow_312',['Right_Arrow',['../_mini_button_widget_8h.html#a65ce6f88e76409d34c47698173773301aa3590ed17068aa15cdc058fe078f022c',1,'MiniButtonWidget.h']]],
+  ['rootwidgets_313',['rootwidgets',['../struct_desktop_features.html#ad665d731a1bb9fd67c89d20b97a7914b',1,'DesktopFeatures']]],
+  ['roundclock_314',['roundclock',['../_cursor_task_8h.html#ade99deac9bbdfc23055691974b26805caa722e9336fc183bc683bd44de6a12f9e',1,'CursorTask.h']]]
+];
