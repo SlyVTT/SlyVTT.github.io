@@ -6,6 +6,5 @@ var class_button_widget =
     [ "ispressed", "class_button_widget.html#a1be94cfa8229daee6175056a96eb21f3", null ],
     [ "logic", "class_button_widget.html#a6543373752a3627207c5912039da0407", null ],
     [ "render", "class_button_widget.html#a4fc35c819f011572535d480d3a305166", null ],
-    [ "MiniButtonWidget", "class_button_widget.html#a854906932b4a6cfa7b9502b4a4343250", null ],
-    [ "is_pressed", "class_button_widget.html#a264992c2bcdac777cbf1f4fcb48b600f", null ]
+    [ "MiniButtonWidget", "class_button_widget.html#a854906932b4a6cfa7b9502b4a4343250", null ]
 ];

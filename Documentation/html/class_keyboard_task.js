@@ -8,7 +8,6 @@ var class_keyboard_task =
     [ "iskeypressevent", "class_keyboard_task.html#ad0dcbbe6af71083620398f3866b8be1c", null ],
     [ "iskeyreleaseevent", "class_keyboard_task.html#a0312dfb2bddb17fd5fbbbd6f3168e137", null ],
     [ "logic", "class_keyboard_task.html#aec58f46426700ea1beb71f9c99209d21", null ],
-    [ "base", "class_keyboard_task.html#aa636aea0ffd61d05cfc69e11450b4798", null ],
     [ "capsonmode", "class_keyboard_task.html#a66d869d009afedeb53ceb3cdbcdd0a1f", null ],
     [ "kb0", "class_keyboard_task.html#a1d025348293921921ccd0afc433e7f1b", null ],
     [ "kb1", "class_keyboard_task.html#a0f5f0e899ebe9a8da6fb31b021866881", null ],

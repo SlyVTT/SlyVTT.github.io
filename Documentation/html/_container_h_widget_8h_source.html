@@ -86,57 +86,65 @@ $(document).ready(function(){initNavTree('_container_h_widget_8h_source.html',''
 <div class="title">ContainerHWidget.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="_container_h_widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CONTAINERHWIDGET_H</span></div>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CONTAINERHWIDGET_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define CONTAINERHWIDGET_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_widget_8h.html">Widget.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Widget.h&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_container_h_widget.html">    7</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_container_h_widget.html">ContainerHWidget</a> : <span class="keyword">public</span> <a class="code" href="class_widget.html">Widget</a></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_container_h_widget.html#abfa3c1f5e5ac51da5587a9dce7fac18d">   10</a></span>&#160;        <a class="code" href="class_container_h_widget.html#abfa3c1f5e5ac51da5587a9dce7fac18d">ContainerHWidget</a>() { <a class="code" href="class_widget.html#a96c168e59163e6ad7bcedee9206b92ce">widgettype</a> = (<span class="keywordtype">char</span>*) <span class="stringliteral">&quot;ContainerH&quot;</span>; };</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_container_h_widget.html#aa2c470a8431c514b465fd1430ac74b5b">   11</a></span>&#160;        <a class="code" href="class_container_h_widget.html#aa2c470a8431c514b465fd1430ac74b5b">ContainerHWidget</a>( <span class="keywordtype">char</span> *l, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <a class="code" href="class_widget.html">Widget</a> *p ) : <a class="code" href="class_widget.html">Widget</a>( l, x, y, w, h, p ) { <a class="code" href="class_widget.html#a96c168e59163e6ad7bcedee9206b92ce">widgettype</a> = (<span class="keywordtype">char</span>*) <span class="stringliteral">&quot;ContainerH&quot;</span>; };</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_container_h_widget.html#a55af029a0b898c4a11896103aab790cf">   12</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_container_h_widget.html#a55af029a0b898c4a11896103aab790cf">~ContainerHWidget</a>() { };</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_container_h_widget.html#a886c14a814ae5203ae7d5b6170f7822f">adjust</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_container_h_widget.html#af890885b342b8d0d5f1ffb5d7efd939c">   16</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="class_container_h_widget.html#af890885b342b8d0d5f1ffb5d7efd939c">getsize</a>() { <span class="keywordflow">return</span> <a class="code" href="class_widget.html#a1fa9456308c1b96f4de830fa7566237b">nbchildren</a>; };</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_container_h_widget.html#a67231290f3f6b9c5e7d39cdc268fecee">logic</a>( <a class="code" href="class_cursor_task.html">CursorTask</a> *mouse, <a class="code" href="class_keyboard_task.html">KeyboardTask</a> *keyboard ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_container_h_widget.html#a646f58be35719f4b1687c00c7cb7f3fa">render</a>( SDL_Surface *screen, <a class="code" href="class_color_engine.html">ColorEngine</a> *colors, <a class="code" href="class_font_engine.html">FontEngine</a> *fonts ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">//        int sizehgrid;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">//        std::vector&lt;Widget*&gt; gridhwidget;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;};</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif // CONTAINERHWIDGET_H</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="class_container_h_widget.html">  104</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_container_h_widget.html">ContainerHWidget</a> : <span class="keyword">public</span> <a class="code" href="class_widget.html">Widget</a></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;{</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="class_container_h_widget.html#abfa3c1f5e5ac51da5587a9dce7fac18d">  116</a></span>&#160;        <a class="code" href="class_container_h_widget.html#abfa3c1f5e5ac51da5587a9dce7fac18d">ContainerHWidget</a>() { widgettype = (<span class="keywordtype">char</span>*) <span class="stringliteral">&quot;ContainerH&quot;</span>; };</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="class_container_h_widget.html#aa2c470a8431c514b465fd1430ac74b5b">  131</a></span>&#160;        <a class="code" href="class_container_h_widget.html#aa2c470a8431c514b465fd1430ac74b5b">ContainerHWidget</a>( <span class="keywordtype">char</span> *l, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <a class="code" href="class_widget.html">Widget</a> *p ) : <a class="code" href="class_widget.html">Widget</a>( l, x, y, w, h, p ) { widgettype = (<span class="keywordtype">char</span>*) <span class="stringliteral">&quot;ContainerH&quot;</span>; };</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="class_container_h_widget.html#a55af029a0b898c4a11896103aab790cf">  140</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_container_h_widget.html#a55af029a0b898c4a11896103aab790cf">~ContainerHWidget</a>() { };</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_container_h_widget.html#a886c14a814ae5203ae7d5b6170f7822f">adjust</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
+<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="class_container_h_widget.html#af890885b342b8d0d5f1ffb5d7efd939c">  158</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="class_container_h_widget.html#af890885b342b8d0d5f1ffb5d7efd939c">getsize</a>() { <span class="keywordflow">return</span> nbchildren; };</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_container_h_widget.html#a67231290f3f6b9c5e7d39cdc268fecee">logic</a>( <a class="code" href="class_cursor_task.html">CursorTask</a> *mouse, <a class="code" href="class_keyboard_task.html">KeyboardTask</a> *keyboard ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_container_h_widget.html#a646f58be35719f4b1687c00c7cb7f3fa">render</a>( SDL_Surface *screen, <a class="code" href="class_color_engine.html">ColorEngine</a> *colors, <a class="code" href="class_font_engine.html">FontEngine</a> *fonts ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160; </div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;};</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor">#endif // CONTAINERHWIDGET_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="a_widget_8h_html"><div class="ttname"><a href="_widget_8h.html">Widget.h</a></div></div>
-<div class="ttc" id="aclass_container_h_widget_html_a67231290f3f6b9c5e7d39cdc268fecee"><div class="ttname"><a href="class_container_h_widget.html#a67231290f3f6b9c5e7d39cdc268fecee">ContainerHWidget::logic</a></div><div class="ttdeci">virtual void logic(CursorTask *mouse, KeyboardTask *keyboard) override</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.cpp:76</div></div>
-<div class="ttc" id="aclass_container_h_widget_html_aa2c470a8431c514b465fd1430ac74b5b"><div class="ttname"><a href="class_container_h_widget.html#aa2c470a8431c514b465fd1430ac74b5b">ContainerHWidget::ContainerHWidget</a></div><div class="ttdeci">ContainerHWidget(char *l, int x, int y, int w, int h, Widget *p)</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.h:11</div></div>
+<div class="ttc" id="aclass_container_h_widget_html_a67231290f3f6b9c5e7d39cdc268fecee"><div class="ttname"><a href="class_container_h_widget.html#a67231290f3f6b9c5e7d39cdc268fecee">ContainerHWidget::logic</a></div><div class="ttdeci">virtual void logic(CursorTask *mouse, KeyboardTask *keyboard) override</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.cpp:36</div></div>
+<div class="ttc" id="aclass_container_h_widget_html_aa2c470a8431c514b465fd1430ac74b5b"><div class="ttname"><a href="class_container_h_widget.html#aa2c470a8431c514b465fd1430ac74b5b">ContainerHWidget::ContainerHWidget</a></div><div class="ttdeci">ContainerHWidget(char *l, int x, int y, int w, int h, Widget *p)</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.h:131</div></div>
 <div class="ttc" id="aclass_container_h_widget_html_a886c14a814ae5203ae7d5b6170f7822f"><div class="ttname"><a href="class_container_h_widget.html#a886c14a814ae5203ae7d5b6170f7822f">ContainerHWidget::adjust</a></div><div class="ttdeci">virtual void adjust() override</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.cpp:6</div></div>
 <div class="ttc" id="aclass_cursor_task_html"><div class="ttname"><a href="class_cursor_task.html">CursorTask</a></div><div class="ttdef"><b>Definition:</b> CursorTask.h:13</div></div>
 <div class="ttc" id="aclass_font_engine_html"><div class="ttname"><a href="class_font_engine.html">FontEngine</a></div><div class="ttdef"><b>Definition:</b> FontEngine.h:54</div></div>
-<div class="ttc" id="aclass_container_h_widget_html_abfa3c1f5e5ac51da5587a9dce7fac18d"><div class="ttname"><a href="class_container_h_widget.html#abfa3c1f5e5ac51da5587a9dce7fac18d">ContainerHWidget::ContainerHWidget</a></div><div class="ttdeci">ContainerHWidget()</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.h:10</div></div>
-<div class="ttc" id="aclass_container_h_widget_html"><div class="ttname"><a href="class_container_h_widget.html">ContainerHWidget</a></div><div class="ttdef"><b>Definition:</b> ContainerHWidget.h:7</div></div>
-<div class="ttc" id="aclass_container_h_widget_html_a646f58be35719f4b1687c00c7cb7f3fa"><div class="ttname"><a href="class_container_h_widget.html#a646f58be35719f4b1687c00c7cb7f3fa">ContainerHWidget::render</a></div><div class="ttdeci">virtual void render(SDL_Surface *screen, ColorEngine *colors, FontEngine *fonts) override</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.cpp:85</div></div>
+<div class="ttc" id="aclass_container_h_widget_html_abfa3c1f5e5ac51da5587a9dce7fac18d"><div class="ttname"><a href="class_container_h_widget.html#abfa3c1f5e5ac51da5587a9dce7fac18d">ContainerHWidget::ContainerHWidget</a></div><div class="ttdeci">ContainerHWidget()</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.h:116</div></div>
+<div class="ttc" id="aclass_container_h_widget_html"><div class="ttname"><a href="class_container_h_widget.html">ContainerHWidget</a></div><div class="ttdef"><b>Definition:</b> ContainerHWidget.h:104</div></div>
+<div class="ttc" id="aclass_container_h_widget_html_a646f58be35719f4b1687c00c7cb7f3fa"><div class="ttname"><a href="class_container_h_widget.html#a646f58be35719f4b1687c00c7cb7f3fa">ContainerHWidget::render</a></div><div class="ttdeci">virtual void render(SDL_Surface *screen, ColorEngine *colors, FontEngine *fonts) override</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.cpp:45</div></div>
 <div class="ttc" id="aclass_keyboard_task_html"><div class="ttname"><a href="class_keyboard_task.html">KeyboardTask</a></div><div class="ttdef"><b>Definition:</b> KeyboardTask.h:6</div></div>
-<div class="ttc" id="aclass_container_h_widget_html_af890885b342b8d0d5f1ffb5d7efd939c"><div class="ttname"><a href="class_container_h_widget.html#af890885b342b8d0d5f1ffb5d7efd939c">ContainerHWidget::getsize</a></div><div class="ttdeci">virtual int getsize()</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.h:16</div></div>
+<div class="ttc" id="aclass_container_h_widget_html_af890885b342b8d0d5f1ffb5d7efd939c"><div class="ttname"><a href="class_container_h_widget.html#af890885b342b8d0d5f1ffb5d7efd939c">ContainerHWidget::getsize</a></div><div class="ttdeci">virtual int getsize()</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.h:158</div></div>
 <div class="ttc" id="aclass_color_engine_html"><div class="ttname"><a href="class_color_engine.html">ColorEngine</a></div><div class="ttdef"><b>Definition:</b> ColorEngine.h:27</div></div>
-<div class="ttc" id="aclass_container_h_widget_html_a55af029a0b898c4a11896103aab790cf"><div class="ttname"><a href="class_container_h_widget.html#a55af029a0b898c4a11896103aab790cf">ContainerHWidget::~ContainerHWidget</a></div><div class="ttdeci">virtual ~ContainerHWidget()</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.h:12</div></div>
-<div class="ttc" id="aclass_widget_html_a96c168e59163e6ad7bcedee9206b92ce"><div class="ttname"><a href="class_widget.html#a96c168e59163e6ad7bcedee9206b92ce">Widget::widgettype</a></div><div class="ttdeci">char * widgettype</div><div class="ttdef"><b>Definition:</b> Widget.h:74</div></div>
+<div class="ttc" id="aclass_container_h_widget_html_a55af029a0b898c4a11896103aab790cf"><div class="ttname"><a href="class_container_h_widget.html#a55af029a0b898c4a11896103aab790cf">ContainerHWidget::~ContainerHWidget</a></div><div class="ttdeci">virtual ~ContainerHWidget()</div><div class="ttdef"><b>Definition:</b> ContainerHWidget.h:140</div></div>
 <div class="ttc" id="aclass_widget_html"><div class="ttname"><a href="class_widget.html">Widget</a></div><div class="ttdef"><b>Definition:</b> Widget.h:16</div></div>
-<div class="ttc" id="aclass_widget_html_a1fa9456308c1b96f4de830fa7566237b"><div class="ttname"><a href="class_widget.html#a1fa9456308c1b96f4de830fa7566237b">Widget::nbchildren</a></div><div class="ttdeci">int nbchildren</div><div class="ttdef"><b>Definition:</b> Widget.h:94</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68257cd6feddec0554c94feec6c64db6.html">Toolkit</a></li><li class="navelem"><a class="el" href="_container_h_widget_8h.html">ContainerHWidget.h</a></li>
+    <li class="navelem"><a class="el" href="dir_68257cd6feddec0554c94feec6c64db6.html">Toolkit</a></li><li class="navelem"><b>ContainerHWidget.h</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

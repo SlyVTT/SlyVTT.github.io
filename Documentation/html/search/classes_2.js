@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['desktopfeatures_466',['DesktopFeatures',['../struct_desktop_features.html',1,'']]],
-  ['desktopwidget_467',['DesktopWidget',['../class_desktop_widget.html',1,'']]]
+  ['desktopfeatures_60',['DesktopFeatures',['../struct_desktop_features.html',1,'']]],
+  ['desktopwidget_61',['DesktopWidget',['../class_desktop_widget.html',1,'']]]
 ];

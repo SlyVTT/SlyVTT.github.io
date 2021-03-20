@@ -1,12 +1,5 @@
 var searchData=
 [
-  ['desktopwidget_534',['DesktopWidget',['../class_desktop_widget.html#af64801419c24569ba58aba2590d0e3b1',1,'DesktopWidget::DesktopWidget()'],['../class_desktop_widget.html#ab294fed9a6349c9d8b401d82cc3d20f1',1,'DesktopWidget::DesktopWidget(char *l, int x, int y, int w, int h, Widget *p)']]],
-  ['disable_535',['disable',['../class_widget.html#abe459df2237415af53d752bff42f79d1',1,'Widget']]],
-  ['drawchar_536',['drawchar',['../_input_widget_8cpp.html#adf764318c39f1a8846f1141d96e3792c',1,'InputWidget.cpp']]],
-  ['drawcharcenter_537',['drawcharcenter',['../class_font_engine.html#a5feb36f815fd9eb8f61b46ee2e880b74',1,'FontEngine']]],
-  ['drawcharleft_538',['drawcharleft',['../class_font_engine.html#ae4785b31e12c7277141c8193549d79ce',1,'FontEngine']]],
-  ['drawcharright_539',['drawcharright',['../class_font_engine.html#a6d6c1a39a091ac5ab3d4c1cda553d6bb',1,'FontEngine']]],
-  ['drawstringcenter_540',['drawstringcenter',['../class_font_engine.html#af1578280e1679b93098ab958bdd1076f',1,'FontEngine']]],
-  ['drawstringleft_541',['drawstringleft',['../class_font_engine.html#a365aef74571a0083ea496231c97242af',1,'FontEngine']]],
-  ['drawstringright_542',['drawstringright',['../class_font_engine.html#a2fa5cdd3502f959056e59f11b1109ffb',1,'FontEngine']]]
+  ['getsize_83',['getsize',['../class_container_h_widget.html#af890885b342b8d0d5f1ffb5d7efd939c',1,'ContainerHWidget::getsize()'],['../class_container_v_widget.html#ae10c997fa6d0f5c91fb3b4618fb4f9ce',1,'ContainerVWidget::getsize()']]],
+  ['gettype_84',['gettype',['../class_check_box_widget.html#aafa0c54e9a247a8d2c20ad49c342b088',1,'CheckBoxWidget::gettype()'],['../class_commuter_widget.html#af8e90b10bae6a15bc1dc9069ed2106c0',1,'CommuterWidget::gettype()']]]
 ];
