@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['savecolortofile_35',['savecolortofile',['../class_color_engine.html#a85afe6867534b94467a77b1abd37e877',1,'ColorEngine']]],
-  ['setdefaultcolorpreset_36',['setdefaultcolorpreset',['../class_color_engine.html#a40e80d810a0cfd2af53abfd48b8e733f',1,'ColorEngine']]],
-  ['setnormal_37',['setnormal',['../class_commuter_widget.html#a59120c90ff7bf72fa3a724c3c4a977ca',1,'CommuterWidget']]],
-  ['setreversed_38',['setreversed',['../class_commuter_widget.html#acf02c1165706761a347b41e620106a41',1,'CommuterWidget']]],
-  ['settype_39',['settype',['../class_check_box_widget.html#a062ef695c193a5db692f6b83a67c39e6',1,'CheckBoxWidget::settype()'],['../class_commuter_widget.html#a09fa22a35bf176db34bfbaf6ba2de6f4',1,'CommuterWidget::settype()']]],
-  ['sliderwidget_40',['SliderWidget',['../class_slider_widget.html',1,'']]]
+  ['r_39',['R',['../structcolor_r_g_b_a.html#aaa66c5628906c20c12a1dfcf0299a78e',1,'colorRGBA']]],
+  ['radiocontrolwidget_40',['RadioControlWidget',['../class_radio_control_widget.html',1,'']]],
+  ['render_41',['render',['../class_button_widget.html#a4fc35c819f011572535d480d3a305166',1,'ButtonWidget::render()'],['../class_check_box_widget.html#a36f1a6ca3aeaa0a1ed2770001f4e4321',1,'CheckBoxWidget::render()'],['../class_commuter_widget.html#a1c95afdecb30b4363497f667877c77f6',1,'CommuterWidget::render()'],['../class_container_h_widget.html#a646f58be35719f4b1687c00c7cb7f3fa',1,'ContainerHWidget::render()'],['../class_container_v_widget.html#aa7f0ebe019f8208ca4ad48dcbe84e0d0',1,'ContainerVWidget::render()'],['../class_cursor_task.html#a39986781051316318643af87138ea231',1,'CursorTask::render()'],['../class_mini_button_widget.html#ad9f74a5c761a9b318e0f91befa50e71a',1,'MiniButtonWidget::render()'],['../class_radio_control_widget.html#aed403ef9a2f79947fd6afc6dce389bd0',1,'RadioControlWidget::render()']]]
 ];

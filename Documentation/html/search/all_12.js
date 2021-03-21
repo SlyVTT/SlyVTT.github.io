@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['underdouble_377',['UnderDouble',['../_font_engine_8h.html#ae6bd88ef3cc4830350d52ad51e09f304a6f73cba9cc41c0512ae23c0a533ffe07',1,'FontEngine.h']]],
-  ['undersimple_378',['UnderSimple',['../_font_engine_8h.html#ae6bd88ef3cc4830350d52ad51e09f304a9813b3b7dbeef0a63b5e457a18f55c79',1,'FontEngine.h']]],
-  ['unfocusdown_379',['unfocusdown',['../class_widget.html#a426f06d5b1adb49ddef03f155102df9c',1,'Widget']]],
-  ['unfocusup_380',['unfocusup',['../class_widget.html#a1f219693542945a2dd8208ef82d7a628',1,'Widget']]],
-  ['uniform_5fbackground_381',['uniform_background',['../struct_desktop_features.html#afdd8210fa46a023635c381e7a3dd7251',1,'DesktopFeatures']]],
-  ['up_5farrow_382',['Up_Arrow',['../_mini_button_widget_8h.html#a65ce6f88e76409d34c47698173773301a1663fb676fc7e40805116a80f9410100',1,'MiniButtonWidget.h']]],
-  ['updatescroll_383',['updateScroll',['../class_input_widget.html#a4dd89935a1e07de174d35fd779fc3bdc',1,'InputWidget']]]
+  ['_7ebuttonwidget_58',['~ButtonWidget',['../class_button_widget.html#a2ba74e052c9a458e0fab4d80dbd40d16',1,'ButtonWidget']]],
+  ['_7echeckboxwidget_59',['~CheckBoxWidget',['../class_check_box_widget.html#a7cfb533e3dd0752217fd7b9ac8996e9e',1,'CheckBoxWidget']]],
+  ['_7ecolorengine_60',['~ColorEngine',['../class_color_engine.html#a9a860f7f07d8fa7e71d21c5409775f62',1,'ColorEngine']]],
+  ['_7ecommuterwidget_61',['~CommuterWidget',['../class_commuter_widget.html#a3328e2305542440ef079c73f5d4a33c0',1,'CommuterWidget']]],
+  ['_7econtainerhwidget_62',['~ContainerHWidget',['../class_container_h_widget.html#a55af029a0b898c4a11896103aab790cf',1,'ContainerHWidget']]],
+  ['_7econtainervwidget_63',['~ContainerVWidget',['../class_container_v_widget.html#ab085605ac90e3bc8f9597e6cac866137',1,'ContainerVWidget']]],
+  ['_7ecursortask_64',['~CursorTask',['../class_cursor_task.html#a8b8da8cf5bdee436982ff7360c59b250',1,'CursorTask']]]
 ];

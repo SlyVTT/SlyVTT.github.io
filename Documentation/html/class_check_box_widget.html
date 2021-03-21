@@ -24,10 +24,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Logo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">GUI Toolkit for TI nSpire
-   &#160;<span id="projectnumber">0.5 beta</span>
+   &#160;<span id="projectnumber">0.55 beta (dated 2021-03-21)</span>
    </div>
+   <div id="projectbrief">A GUI toolkit for Ndless-TI NSpire using SDL and Ndless libraries.</div>
   </td>
  </tr>
  </tbody>
@@ -329,7 +331,7 @@ void(*&#160;</td><td class="memItemRight" valign="bottom"><b>hoverfunction</b> )
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Example of program using <a class="el" href="class_check_box_widget.html">CheckBoxWidget</a> controls</p>
-<p>The following simple example demonstrate how to use the <a class="el" href="class_check_box_widget.html">CheckBoxWidget</a> controls. </p><div class="image">
+<p>The following simple example demonstrates how to use the <a class="el" href="class_check_box_widget.html">CheckBoxWidget</a> controls. </p><div class="image">
 <img src="CheckBoxWidgetExample1.jpg" alt=""/>
 </div>
  <div class="image">
@@ -532,11 +534,11 @@ Examples of usage:</h3>
 <p>Advanced constructor.</p>
 <p><a class="el" href="class_widget.html">Widget</a> properties are set with parameters values given at call. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">l</td><td>: text string (char*) that will be used as the WidgetButton textual content </td></tr>
-    <tr><td class="paramname">x</td><td>: position x in pixels relatively to the parent <a class="el" href="class_widget.html">Widget</a> usable drawspace </td></tr>
-    <tr><td class="paramname">y</td><td>: position y in pixels relatively to the parent <a class="el" href="class_widget.html">Widget</a> usable drawspace </td></tr>
-    <tr><td class="paramname">w</td><td>: width in pixel of the <a class="el" href="class_button_widget.html">ButtonWidget</a> </td></tr>
-    <tr><td class="paramname">h</td><td>: height in pixel of the <a class="el" href="class_button_widget.html">ButtonWidget</a> </td></tr>
+    <tr><td class="paramname">l</td><td>: text string (char*) that will be used as the widget textual content </td></tr>
+    <tr><td class="paramname">x</td><td>: position x in pixels relatively to the parent widget usable drawspace </td></tr>
+    <tr><td class="paramname">y</td><td>: position y in pixels relatively to the parent widget usable drawspace </td></tr>
+    <tr><td class="paramname">w</td><td>: width in pixel of the widget </td></tr>
+    <tr><td class="paramname">h</td><td>: height in pixel of the widget </td></tr>
     <tr><td class="paramname">p</td><td>: pointer type to a Widget* to create a link with the parent widget (if any). </td></tr>
   </table>
   </dd>
@@ -572,7 +574,7 @@ Examples of usage:</h3>
 </table>
 </div><div class="memdoc">
 <p>Object destructor</p>
-<p>Object destructor, remove all trace of the <a class="el" href="class_button_widget.html">ButtonWidget</a> and free allocated memory </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Object destructor, remove all trace of the object and free allocated memory </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">None</td><td></td></tr>
   </table>
@@ -676,7 +678,7 @@ Examples of usage:</h3>
 </table>
 </div><div class="memdoc">
 <p>Is the CheckBox ticked ?</p>
-<p>Gives the status of the <a class="el" href="class_check_box_widget.html">CheckBoxWidget</a> (pressed (i.e. clicked) or not). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Gives the status of the <a class="el" href="class_check_box_widget.html">CheckBoxWidget</a> (ticked or not). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">None</td><td></td></tr>
   </table>
@@ -720,19 +722,19 @@ Examples of usage:</h3>
 </table>
 </div><div class="memdoc">
 <p>The <a class="el" href="class_check_box_widget.html">CheckBoxWidget</a> logic mechanism</p>
-<p><a class="el" href="class_widget.html">Widget</a> method to be launched to drive the the mechanics behind the <a class="el" href="class_check_box_widget.html">CheckBoxWidget</a> behavior. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Method to be launched to drive the the mechanics behind the <a class="el" href="class_check_box_widget.html">CheckBoxWidget</a> behavior. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mouse</td><td>: pointer to a <a class="el" href="class_cursor_task.html">CursorTask</a> handler object serving at passing the mouse (Touchpad) state and position </td></tr>
     <tr><td class="paramname">keyboard</td><td>: pointer to a <a class="el" href="class_keyboard_task.html">KeyboardTask</a> handler object serving at passing the keyboard state </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Nothing, but will launch the <a class="el" href="class_check_box_widget.html#a816bc63ab6f8b78c75208637153281c5">logic()</a> method of all the Widgets belonging to chidren (vector&lt;Widget*&gt;) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Nothing, but will launch the <a class="el" href="class_check_box_widget.html#a816bc63ab6f8b78c75208637153281c5">logic()</a> method of all the widgets belonging to chidren (vector&lt;Widget*&gt;) </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This method overrides Widget::logic( CursorTask*, KeyboardTask*) </dd>
 <dd>
 This method is not intended to be used by a direct call from the user, it is normally called through cascaded calls to children-&gt;<a class="el" href="class_check_box_widget.html#a816bc63ab6f8b78c75208637153281c5">logic()</a> from the <a class="el" href="class_widget_application.html">WidgetApplication</a> class </dd>
 <dd>
-Direct call can be used when the <a class="el" href="class_widget.html">Widget</a> is used out of the <a class="el" href="class_widget_application.html">WidgetApplication</a> 'ecosystem', for example in an applicaiton that just use few individual widgets (not recommended cause it may need intensive work from the developper to create adequate working conditions). </dd></dl>
+Direct call can be used when the <a class="el" href="class_widget.html">Widget</a> is used out of the <a class="el" href="class_widget_application.html">WidgetApplication</a> 'ecosystem', for example in an application that just use few individual widgets (not recommended cause it may need intensive work from the developper to create adequate working conditions). </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Before calling the logic method, a mouse handler and a keyboard handler must be instancied and properly updated through their respective <a class="el" href="class_check_box_widget.html#a816bc63ab6f8b78c75208637153281c5">logic()</a> methods. This is normally done by using the <a class="el" href="class_widget_application.html">WidgetApplication</a> class. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_button_widget.html#a6543373752a3627207c5912039da0407">ButtonWidget</a>.</p>
@@ -779,11 +781,11 @@ Direct call can be used when the <a class="el" href="class_widget.html">Widget</
 </table>
 </div><div class="memdoc">
 <p>The <a class="el" href="class_check_box_widget.html">CheckBoxWidget</a> render method.</p>
-<p><a class="el" href="class_widget.html">Widget</a> method to be launched to draw the <a class="el" href="class_check_box_widget.html">CheckBoxWidget</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Method to be launched to draw the widget. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">screen</td><td>: pointer to a SDL_Surface object where we would like to draw the button </td></tr>
-    <tr><td class="paramname">colors</td><td>: pointer to a <a class="el" href="class_color_engine.html">ColorEngine</a> object giving all the color options to be used (theme) for drawing the <a class="el" href="class_button_widget.html">ButtonWidget</a> </td></tr>
-    <tr><td class="paramname">fonts</td><td>: pointer to a <a class="el" href="class_font_engine.html">FontEngine</a> object giving all the fonts options to be used (theme) for drawing the <a class="el" href="class_button_widget.html">ButtonWidget</a> </td></tr>
+    <tr><td class="paramname">screen</td><td>: pointer to a SDL_Surface object where we would like to draw the widget </td></tr>
+    <tr><td class="paramname">colors</td><td>: pointer to a <a class="el" href="class_color_engine.html">ColorEngine</a> object giving all the color options to be used (theme) for drawing the widget </td></tr>
+    <tr><td class="paramname">fonts</td><td>: pointer to a <a class="el" href="class_font_engine.html">FontEngine</a> object giving all the fonts options to be used (theme) for drawing the widget </td></tr>
   </table>
   </dd>
 </dl>
@@ -792,7 +794,7 @@ Direct call can be used when the <a class="el" href="class_widget.html">Widget</
 <dd>
 This method is not intended to be used by a direct call from the user, it is normally called through cascaded calls to children-&gt;<a class="el" href="class_check_box_widget.html#a36f1a6ca3aeaa0a1ed2770001f4e4321">render()</a> from the <a class="el" href="class_widget_application.html">WidgetApplication</a> class. </dd>
 <dd>
-Direct call can be used when the <a class="el" href="class_widget.html">Widget</a> is used out of the <a class="el" href="class_widget_application.html">WidgetApplication</a> 'ecosystem', for example in an applicaiton that just use few individual widgets (not recommended cause it may need intensive work from the developper to create adequate working conditions). </dd></dl>
+Direct call can be used when the <a class="el" href="class_widget.html">Widget</a> is used out of the <a class="el" href="class_widget_application.html">WidgetApplication</a> 'ecosystem', for example in an application that just use few individual widgets (not recommended cause it may need intensive work from the developper to create adequate working conditions). </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Before calling the render method, a SDL_Surface (i.e. a rendering context) as well as a <a class="el" href="class_color_engine.html">ColorEngine</a> and <a class="el" href="class_font_engine.html">FontEngine</a> objects must be properly instancied. This is normally done by using the <a class="el" href="class_widget_application.html">WidgetApplication</a> class. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_button_widget.html#a4fc35c819f011572535d480d3a305166">ButtonWidget</a>.</p>
@@ -845,10 +847,10 @@ Direct call can be used when the <a class="el" href="class_widget.html">Widget</
 <div class="ttc" id="aclass_button_widget_html_a1be94cfa8229daee6175056a96eb21f3"><div class="ttname"><a href="class_button_widget.html#a1be94cfa8229daee6175056a96eb21f3">ButtonWidget::ispressed</a></div><div class="ttdeci">virtual bool ispressed()</div><div class="ttdef"><b>Definition:</b> ButtonWidget.cpp:5</div></div>
 <div class="ttc" id="aclass_check_box_widget_html_aa227259ed63b5fe308a259544c09813b"><div class="ttname"><a href="class_check_box_widget.html#aa227259ed63b5fe308a259544c09813b">CheckBoxWidget::CheckBoxWidget</a></div><div class="ttdeci">CheckBoxWidget()</div><div class="ttdef"><b>Definition:</b> CheckBoxWidget.h:119</div></div>
 <div class="ttc" id="aclass_button_widget_html_a951eaac7082b5349bd44372db2456177"><div class="ttname"><a href="class_button_widget.html#a951eaac7082b5349bd44372db2456177">ButtonWidget::ButtonWidget</a></div><div class="ttdeci">ButtonWidget()</div><div class="ttdef"><b>Definition:</b> ButtonWidget.h:102</div></div>
-<div class="ttc" id="aclass_container_v_widget_html"><div class="ttname"><a href="class_container_v_widget.html">ContainerVWidget</a></div><div class="ttdef"><b>Definition:</b> ContainerVWidget.h:104</div></div>
+<div class="ttc" id="aclass_container_v_widget_html"><div class="ttname"><a href="class_container_v_widget.html">ContainerVWidget</a></div><div class="ttdef"><b>Definition:</b> ContainerVWidget.h:105</div></div>
 <div class="ttc" id="aclass_window_widget_html"><div class="ttname"><a href="class_window_widget.html">WindowWidget</a></div><div class="ttdef"><b>Definition:</b> WindowWidget.h:7</div></div>
 <div class="ttc" id="aclass_button_widget_html"><div class="ttname"><a href="class_button_widget.html">ButtonWidget</a></div><div class="ttdef"><b>Definition:</b> ButtonWidget.h:91</div></div>
-<div class="ttc" id="aclass_keyboard_task_html"><div class="ttname"><a href="class_keyboard_task.html">KeyboardTask</a></div><div class="ttdef"><b>Definition:</b> KeyboardTask.h:6</div></div>
+<div class="ttc" id="aclass_keyboard_task_html"><div class="ttname"><a href="class_keyboard_task.html">KeyboardTask</a></div><div class="ttdef"><b>Definition:</b> KeyboardTask.h:99</div></div>
 <div class="ttc" id="aclass_check_box_widget_html"><div class="ttname"><a href="class_check_box_widget.html">CheckBoxWidget</a></div><div class="ttdef"><b>Definition:</b> CheckBoxWidget.h:108</div></div>
 <div class="ttc" id="aclass_check_box_widget_html_a062ef695c193a5db692f6b83a67c39e6"><div class="ttname"><a href="class_check_box_widget.html#a062ef695c193a5db692f6b83a67c39e6">CheckBoxWidget::settype</a></div><div class="ttdeci">virtual void settype(tick type)</div><div class="ttdef"><b>Definition:</b> CheckBoxWidget.h:210</div></div>
 <!-- start footer part -->

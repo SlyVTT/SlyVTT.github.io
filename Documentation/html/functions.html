@@ -24,10 +24,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Logo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">GUI Toolkit for TI nSpire
-   &#160;<span id="projectnumber">0.5 beta</span>
+   &#160;<span id="projectnumber">0.55 beta (dated 2021-03-21)</span>
    </div>
+   <div id="projectbrief">A GUI toolkit for Ndless-TI NSpire using SDL and Ndless libraries.</div>
   </td>
  </tr>
  </tbody>
@@ -100,7 +102,7 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 : <a class="el" href="structcolor_r_g_b_a.html#a0c8fc229b6baa23f2f0414b919416c09">colorRGBA</a>
 </li>
 <li>ButtonWidget()
-: <a class="el" href="class_button_widget.html#af29649e8ba3e60cd19636868785aa3d3">ButtonWidget</a>
+: <a class="el" href="class_button_widget.html#a951eaac7082b5349bd44372db2456177">ButtonWidget</a>
 </li>
 </ul>
 
@@ -124,6 +126,12 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>ContainerVWidget()
 : <a class="el" href="class_container_v_widget.html#aca80d3405455623931dfb4255260a796">ContainerVWidget</a>
 </li>
+<li>CursorTask()
+: <a class="el" href="class_cursor_task.html#ab6e78f7369977d2a1c44be26ba36a8b1">CursorTask</a>
+</li>
+<li>cursortype
+: <a class="el" href="class_cursor_task.html#ae3b9855e77cf1b6d83f0cd030b55cc38">CursorTask</a>
+</li>
 </ul>
 
 
@@ -142,10 +150,32 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 </ul>
 
 
+<h3><a id="index_h"></a>- h -</h3><ul>
+<li>hidemouse()
+: <a class="el" href="class_cursor_task.html#a2e94f55da681dec3bff7e05666c7bbbe">CursorTask</a>
+</li>
+</ul>
+
+
 <h3><a id="index_i"></a>- i -</h3><ul>
 <li>invert()
 : <a class="el" href="class_check_box_widget.html#a1de63d0c6ae4294168673fbbdab41089">CheckBoxWidget</a>
 , <a class="el" href="class_commuter_widget.html#a776847f1a53f906419cc7463321879c8">CommuterWidget</a>
+</li>
+<li>ismouseclickevent()
+: <a class="el" href="class_cursor_task.html#af652e11cdb94dda7b1d4feb5b7efff65">CursorTask</a>
+</li>
+<li>ismouseevent()
+: <a class="el" href="class_cursor_task.html#a564ace3696d715baddc8bc6a4699e6b3">CursorTask</a>
+</li>
+<li>ismousemoveevent()
+: <a class="el" href="class_cursor_task.html#a892291dda89bd6e5291ce97e2d6163ff">CursorTask</a>
+</li>
+<li>ismousereleaseevent()
+: <a class="el" href="class_cursor_task.html#a9691d90f19cc314094bf173b6ff3e906">CursorTask</a>
+</li>
+<li>ismousevisible()
+: <a class="el" href="class_cursor_task.html#a32e9747f85ebdf3e283ad78f8fe68adf">CursorTask</a>
 </li>
 <li>ispressed()
 : <a class="el" href="class_button_widget.html#a1be94cfa8229daee6175056a96eb21f3">ButtonWidget</a>
@@ -171,6 +201,7 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 , <a class="el" href="class_commuter_widget.html#a7cba024303bb9ae72d11e599d0143054">CommuterWidget</a>
 , <a class="el" href="class_container_h_widget.html#a67231290f3f6b9c5e7d39cdc268fecee">ContainerHWidget</a>
 , <a class="el" href="class_container_v_widget.html#a4f7ccec921ca64d9e4999cf5a86fab12">ContainerVWidget</a>
+, <a class="el" href="class_cursor_task.html#ac0ad0d60004986e8574ae61fdd4f98d5">CursorTask</a>
 , <a class="el" href="class_mini_button_widget.html#a989367e941733b72b558b66c03438276">MiniButtonWidget</a>
 , <a class="el" href="class_radio_control_widget.html#ab70548a40fa7dc0e125f4033a5c9f6d1">RadioControlWidget</a>
 </li>
@@ -187,6 +218,7 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 , <a class="el" href="class_commuter_widget.html#a1c95afdecb30b4363497f667877c77f6">CommuterWidget</a>
 , <a class="el" href="class_container_h_widget.html#a646f58be35719f4b1687c00c7cb7f3fa">ContainerHWidget</a>
 , <a class="el" href="class_container_v_widget.html#aa7f0ebe019f8208ca4ad48dcbe84e0d0">ContainerVWidget</a>
+, <a class="el" href="class_cursor_task.html#a39986781051316318643af87138ea231">CursorTask</a>
 , <a class="el" href="class_mini_button_widget.html#ad9f74a5c761a9b318e0f91befa50e71a">MiniButtonWidget</a>
 , <a class="el" href="class_radio_control_widget.html#aed403ef9a2f79947fd6afc6dce389bd0">RadioControlWidget</a>
 </li>
@@ -196,6 +228,9 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>savecolortofile()
 : <a class="el" href="class_color_engine.html#a85afe6867534b94467a77b1abd37e877">ColorEngine</a>
+</li>
+<li>setcursortype()
+: <a class="el" href="class_cursor_task.html#a8185cfb229282c78111efe8ba36747dd">CursorTask</a>
 </li>
 <li>setdefaultcolorpreset()
 : <a class="el" href="class_color_engine.html#a40e80d810a0cfd2af53abfd48b8e733f">ColorEngine</a>
@@ -210,6 +245,12 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 : <a class="el" href="class_check_box_widget.html#a062ef695c193a5db692f6b83a67c39e6">CheckBoxWidget</a>
 , <a class="el" href="class_commuter_widget.html#a09fa22a35bf176db34bfbaf6ba2de6f4">CommuterWidget</a>
 </li>
+<li>showmouse()
+: <a class="el" href="class_cursor_task.html#a65695ae749e1775514a41c3eff8a2513">CursorTask</a>
+</li>
+<li>state
+: <a class="el" href="class_cursor_task.html#a571dd28479dd8fd13be7bdd97f088da2">CursorTask</a>
+</li>
 </ul>
 
 
@@ -223,6 +264,20 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>widget_border_enable
 : <a class="el" href="class_color_engine.html#a5e6f52ca415eb760e148789dd660ed1b">ColorEngine</a>
+</li>
+</ul>
+
+
+<h3><a id="index_x"></a>- x -</h3><ul>
+<li>x
+: <a class="el" href="class_cursor_task.html#a15510ac43d3f25e10ab1f3a45c6aa573">CursorTask</a>
+</li>
+</ul>
+
+
+<h3><a id="index_y"></a>- y -</h3><ul>
+<li>y
+: <a class="el" href="class_cursor_task.html#a5acd60b369e66ee329588977dd8498d8">CursorTask</a>
 </li>
 </ul>
 
@@ -245,6 +300,9 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 </li>
 <li>~ContainerVWidget()
 : <a class="el" href="class_container_v_widget.html#ab085605ac90e3bc8f9597e6cac866137">ContainerVWidget</a>
+</li>
+<li>~CursorTask()
+: <a class="el" href="class_cursor_task.html#a8b8da8cf5bdee436982ff7360c59b250">CursorTask</a>
 </li>
 </ul>
 </div><!-- contents -->

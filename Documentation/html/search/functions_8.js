@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['_7ebuttonwidget_97',['~ButtonWidget',['../class_button_widget.html#a2ba74e052c9a458e0fab4d80dbd40d16',1,'ButtonWidget']]],
-  ['_7echeckboxwidget_98',['~CheckBoxWidget',['../class_check_box_widget.html#a7cfb533e3dd0752217fd7b9ac8996e9e',1,'CheckBoxWidget']]],
-  ['_7ecolorengine_99',['~ColorEngine',['../class_color_engine.html#a9a860f7f07d8fa7e71d21c5409775f62',1,'ColorEngine']]],
-  ['_7ecommuterwidget_100',['~CommuterWidget',['../class_commuter_widget.html#a3328e2305542440ef079c73f5d4a33c0',1,'CommuterWidget']]],
-  ['_7econtainerhwidget_101',['~ContainerHWidget',['../class_container_h_widget.html#a55af029a0b898c4a11896103aab790cf',1,'ContainerHWidget']]],
-  ['_7econtainervwidget_102',['~ContainerVWidget',['../class_container_v_widget.html#ab085605ac90e3bc8f9597e6cac866137',1,'ContainerVWidget']]]
+  ['savecolortofile_112',['savecolortofile',['../class_color_engine.html#a85afe6867534b94467a77b1abd37e877',1,'ColorEngine']]],
+  ['setcursortype_113',['setcursortype',['../class_cursor_task.html#a8185cfb229282c78111efe8ba36747dd',1,'CursorTask']]],
+  ['setdefaultcolorpreset_114',['setdefaultcolorpreset',['../class_color_engine.html#a40e80d810a0cfd2af53abfd48b8e733f',1,'ColorEngine']]],
+  ['setnormal_115',['setnormal',['../class_commuter_widget.html#a59120c90ff7bf72fa3a724c3c4a977ca',1,'CommuterWidget']]],
+  ['setreversed_116',['setreversed',['../class_commuter_widget.html#acf02c1165706761a347b41e620106a41',1,'CommuterWidget']]],
+  ['settype_117',['settype',['../class_check_box_widget.html#a062ef695c193a5db692f6b83a67c39e6',1,'CheckBoxWidget::settype()'],['../class_commuter_widget.html#a09fa22a35bf176db34bfbaf6ba2de6f4',1,'CommuterWidget::settype()']]],
+  ['showmouse_118',['showmouse',['../class_cursor_task.html#a65695ae749e1775514a41c3eff8a2513',1,'CursorTask']]]
 ];

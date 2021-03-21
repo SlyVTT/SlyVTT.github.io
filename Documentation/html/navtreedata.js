@@ -43,7 +43,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_button_widget_8h_source.html",
-"class_keyboard_task.html#aa79ece484fcc74e9917d543b8c655e14"
+"class_keyboard_task.html#aad0f379c404a427545f2b159315512b0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

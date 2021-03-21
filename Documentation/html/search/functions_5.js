@@ -1,5 +1,12 @@
 var searchData=
 [
-  ['loadcolorfromfile_89',['loadcolorfromfile',['../class_color_engine.html#a9b100cf61f3895ccf8d0e1de1bee6354',1,'ColorEngine']]],
-  ['logic_90',['logic',['../class_button_widget.html#a6543373752a3627207c5912039da0407',1,'ButtonWidget::logic()'],['../class_check_box_widget.html#a816bc63ab6f8b78c75208637153281c5',1,'CheckBoxWidget::logic()'],['../class_commuter_widget.html#a7cba024303bb9ae72d11e599d0143054',1,'CommuterWidget::logic()'],['../class_container_h_widget.html#a67231290f3f6b9c5e7d39cdc268fecee',1,'ContainerHWidget::logic()'],['../class_container_v_widget.html#a4f7ccec921ca64d9e4999cf5a86fab12',1,'ContainerVWidget::logic()'],['../class_mini_button_widget.html#a989367e941733b72b558b66c03438276',1,'MiniButtonWidget::logic()'],['../class_radio_control_widget.html#ab70548a40fa7dc0e125f4033a5c9f6d1',1,'RadioControlWidget::logic()']]]
+  ['invert_100',['invert',['../class_check_box_widget.html#a1de63d0c6ae4294168673fbbdab41089',1,'CheckBoxWidget::invert()'],['../class_commuter_widget.html#a776847f1a53f906419cc7463321879c8',1,'CommuterWidget::invert()']]],
+  ['ismouseclickevent_101',['ismouseclickevent',['../class_cursor_task.html#af652e11cdb94dda7b1d4feb5b7efff65',1,'CursorTask']]],
+  ['ismouseevent_102',['ismouseevent',['../class_cursor_task.html#a564ace3696d715baddc8bc6a4699e6b3',1,'CursorTask']]],
+  ['ismousemoveevent_103',['ismousemoveevent',['../class_cursor_task.html#a892291dda89bd6e5291ce97e2d6163ff',1,'CursorTask']]],
+  ['ismousereleaseevent_104',['ismousereleaseevent',['../class_cursor_task.html#a9691d90f19cc314094bf173b6ff3e906',1,'CursorTask']]],
+  ['ismousevisible_105',['ismousevisible',['../class_cursor_task.html#a32e9747f85ebdf3e283ad78f8fe68adf',1,'CursorTask']]],
+  ['ispressed_106',['ispressed',['../class_button_widget.html#a1be94cfa8229daee6175056a96eb21f3',1,'ButtonWidget::ispressed()'],['../class_mini_button_widget.html#a226e0a1bd4c998b92b0a91c661e973a9',1,'MiniButtonWidget::ispressed()']]],
+  ['isreversed_107',['isreversed',['../class_commuter_widget.html#a06ec0aaf9443951845808ea116a34b04',1,'CommuterWidget']]],
+  ['isticked_108',['isticked',['../class_check_box_widget.html#a7e879a926c9b4a1f9f16df84c2f42382',1,'CheckBoxWidget::isticked()'],['../class_commuter_widget.html#a9d1748c95511cc14beda5bfef2890e5d',1,'CommuterWidget::isticked()']]]
 ];

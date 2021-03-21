@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['progressbarwidget_31',['ProgressBarWidget',['../class_progress_bar_widget.html',1,'']]]
+  ['minibuttonwidget_37',['MiniButtonWidget',['../class_mini_button_widget.html',1,'']]]
 ];

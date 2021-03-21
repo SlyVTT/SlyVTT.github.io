@@ -1,7 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"class_keyboard_task.html#aa79ece484fcc74e9917d543b8c655e14":[0,0,15,70],
-"class_keyboard_task.html#aa8b08c1ca09766d83677b70546928bdf":[0,0,15,59],
 "class_keyboard_task.html#aad0f379c404a427545f2b159315512b0":[0,0,15,20],
 "class_keyboard_task.html#aad4a392d2c85e020e0a0a41fcd7ed1e8":[0,0,15,64],
 "class_keyboard_task.html#aadcc7b82f07a6b38e8ede2153d2a7967":[0,0,15,80],
